@@ -1,5 +1,41 @@
-# Getting Started with Create React App
+# BrightDrop Challenge
 
+## Description
+
+### Story
+
+You’re part of a new and exciting project. You work for a major shipping company and will need to develop a front end web app for the fleet admin who owns a fleet of electric vehicles. As the fleet admin you will need to see all of your vehicles on a map and their charge levels at all times.
+
+### Challenge
+
+Using JavaScript and any library you see fit to develop a simple interface for the fleet admin.
+
+### Implementation
+
+- Framework: Reactjs
+- Libraries: Semantic-ui,Google Auth, Leaflet
+
+React - A react redux implementation was reused from my library of components and dropped in easily. Modal, Dropdown were considered for reuse, but in an effort to keep this simple, they were removed. The router was removed too. This simple app really is one page.
+
+Semantic-Ui. Like bootstrap, semantic ui has a nice responsive grid and offers easy to use examples easily customized to your needs.
+
+Google Auth - Most people have a google account so it's easy and secure. Given more time, admiinistrative features would be added.
+
+Leaflet - Leaflet is an open source mapping api. It was easy enough to render a map, add a custom marker and simple text. It took more time to show the battery charge in a visual way and to integrate leaflet in to a React app.
+
+To simulate polling location data on a fleet, static data was created and imported as needed. setInterval was used to iterate over the routes created for each vehicle.
+
+To create small datasets, a test app was used. To get a large test case, google maps has an export feature. A detroit to chicago trip created over 4000 points. With a large dataset, leaflet failed. The map didn't render, not even a flicker. Leaflet may not be enterprise level, or it's not optimized in a weekend implementation. It made a nice prototype.
+
+Other challenges I ran into with leaflet, I tried using react-leaflet and abandoned it because it was harder to access the underlying leaflet features like moving the marker and customizing the popup.
+
+## Features
+
+- Login google Oauth
+- Display vehicles in fleet in sidebar show name and battery charge
+- Display vehicles on map. Each vehicle is represented by a marker and popup with vehicle location, battery charge.
+
+[Flow Chart](c-healey.github.io/brightdrop/img/image.jpg)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
