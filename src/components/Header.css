@@ -5,6 +5,7 @@
   justify-content: space-between;
   vertical-align: baseline;
   text-transform: uppercase;
+  z-index: 9999;
 }
 
 .bd_nav_item:hover,
