@@ -1,0 +1,44 @@
+#map {
+  flex: 1;
+  height: 100vh;
+  background-color: var(--color-light--1);
+}
+.leaflet-container {
+  height: 100%;
+}
+.charged {
+  background: linear-gradient(to right, #05c3dd 95%, #000000 10%, red 5%);
+}
+
+.charge-alert {
+  /* background-color: var(--color-red); */
+  background: linear-gradient(to right, #05c3dd 5%, #000000 10%, red 95%);
+}
+.charge-warning {
+  background: linear-gradient(to right, #05c3dd 50%, #000000 10%, red 50%);
+}
+.charged,
+.charge-warning,
+.charge-alert {
+  color: var(--color-white);
+}
+.popup-veh-content {
+  padding: 13px, 5px;
+  border-radius: 12px;
+  width: 150px;
+  text-align: center;
+}
+.leaflet-popup-content {
+  margin: 0;
+}
+.leaflet-tip-container {
+  bottom: -20px;
+}
+.sidebar-list-item {
+  padding: 0.5rem 1rem !important;
+}
+.sidebar-list-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
