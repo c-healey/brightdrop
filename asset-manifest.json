@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brightdrop/static/css/main.3168e958.chunk.css",
-    "main.js": "/brightdrop/static/js/main.1496a40e.chunk.js",
-    "main.js.map": "/brightdrop/static/js/main.1496a40e.chunk.js.map",
+    "main.js": "/brightdrop/static/js/main.e84b9a0e.chunk.js",
+    "main.js.map": "/brightdrop/static/js/main.e84b9a0e.chunk.js.map",
     "runtime-main.js": "/brightdrop/static/js/runtime-main.0234be4a.js",
     "runtime-main.js.map": "/brightdrop/static/js/runtime-main.0234be4a.js.map",
     "static/js/2.105552b0.chunk.js": "/brightdrop/static/js/2.105552b0.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.0234be4a.js",
     "static/js/2.105552b0.chunk.js",
     "static/css/main.3168e958.chunk.css",
-    "static/js/main.1496a40e.chunk.js"
+    "static/js/main.e84b9a0e.chunk.js"
   ]
 }
