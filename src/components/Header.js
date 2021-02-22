@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="ui huge menu top  fixed inverted stackable bd_nav">
       <div className="">
-        <img src="/logo.svg" alt="BrightDrop" />
+        <img src="/brightdrop/logo.svg" alt="BrightDrop" />
       </div>
 
       <div className="right menu">
