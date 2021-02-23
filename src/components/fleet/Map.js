@@ -59,7 +59,7 @@ class Map extends React.Component {
   }
   LeafIcon = L.Icon.extend({
     options: {
-      shadowUrl: "brightdrop/logo-pin-shadow.png",
+      shadowUrl: "/logo-pin-shadow.png",
       iconSize: [38, 38],
       shadowSize: [38, 38],
       iconAnchor: [0, 38],
@@ -71,7 +71,7 @@ class Map extends React.Component {
     this.#coords = latlng;
     console.log("renderMarker");
     let bdPinIcon = new this.LeafIcon({
-      iconUrl: "brightdrop/logo-pin-blue.png",
+      iconUrl: "/logo-pin-blue.png",
     });
     this.#marker = L.marker(this.#coords, { icon: bdPinIcon })
       // L.marker(coords)
