@@ -22,11 +22,14 @@ class Map extends React.Component {
 
   componentDidMount() {
     this.#fleetListEl = document.querySelector(".fleet-list-container");
-    this._getPosition();
+    window.addEventListener("load", (event) => {
+      this._getPosition();
+    });
   }
 
   _getPosition() {
     // get region from sidebar
+
     if (this.#map) this.#map.remove();
     this._loadMap();
   }
@@ -56,7 +59,7 @@ class Map extends React.Component {
   }
   LeafIcon = L.Icon.extend({
     options: {
-      shadowUrl: "logo-pin-shadow.png",
+      shadowUrl: "brightdrop/logo-pin-shadow.png",
       iconSize: [38, 38],
       shadowSize: [38, 38],
       iconAnchor: [0, 38],
@@ -67,7 +70,9 @@ class Map extends React.Component {
   renderMarker(latlng, description = "", className = "") {
     this.#coords = latlng;
     console.log("renderMarker");
-    let bdPinIcon = new this.LeafIcon({ iconUrl: "logo-pin-blue.png" });
+    let bdPinIcon = new this.LeafIcon({
+      iconUrl: "brightdrop/logo-pin-blue.png",
+    });
     this.#marker = L.marker(this.#coords, { icon: bdPinIcon })
       // L.marker(coords)
       .addTo(this.#map)

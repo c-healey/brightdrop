@@ -5,18 +5,20 @@ import { signIn, signOut } from "../actions";
 
 class GoogleAuth extends React.Component {
   componentDidMount() {
-    window.gapi.load("client:auth2", () => {
-      window.gapi.client
-        .init({
-          clientId:
-            "1036837016251-dvqb16dmo47obs19s1cpoo2kai7qg04t.apps.googleusercontent.com",
-          scope: "email",
-        })
-        .then(() => {
-          this.auth = window.gapi.auth2.getAuthInstance();
-          this.onAuthChange(this.auth.isSignedIn.get());
-          this.auth.isSignedIn.listen(this.onAuthChange);
-        });
+    window.addEventListener("load", (event) => {
+      window.gapi.load("client:auth2", () => {
+        window.gapi.client
+          .init({
+            clientId:
+              "1036837016251-dvqb16dmo47obs19s1cpoo2kai7qg04t.apps.googleusercontent.com",
+            scope: "email",
+          })
+          .then(() => {
+            this.auth = window.gapi.auth2.getAuthInstance();
+            this.onAuthChange(this.auth.isSignedIn.get());
+            this.auth.isSignedIn.listen(this.onAuthChange);
+          });
+      });
     });
   }
 
