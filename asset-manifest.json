@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/brightdrop/static/css/main.c0bddef9.chunk.css",
-    "main.js": "/brightdrop/static/js/main.e84b9a0e.chunk.js",
-    "main.js.map": "/brightdrop/static/js/main.e84b9a0e.chunk.js.map",
+    "main.css": "/brightdrop/static/css/main.14108112.chunk.css",
+    "main.js": "/brightdrop/static/js/main.e8e0af84.chunk.js",
+    "main.js.map": "/brightdrop/static/js/main.e8e0af84.chunk.js.map",
     "runtime-main.js": "/brightdrop/static/js/runtime-main.0234be4a.js",
     "runtime-main.js.map": "/brightdrop/static/js/runtime-main.0234be4a.js.map",
-    "static/js/2.105552b0.chunk.js": "/brightdrop/static/js/2.105552b0.chunk.js",
-    "static/js/2.105552b0.chunk.js.map": "/brightdrop/static/js/2.105552b0.chunk.js.map",
+    "static/js/2.f19fcb7f.chunk.js": "/brightdrop/static/js/2.f19fcb7f.chunk.js",
+    "static/js/2.f19fcb7f.chunk.js.map": "/brightdrop/static/js/2.f19fcb7f.chunk.js.map",
     "index.html": "/brightdrop/index.html",
-    "static/css/main.c0bddef9.chunk.css.map": "/brightdrop/static/css/main.c0bddef9.chunk.css.map",
-    "static/js/2.105552b0.chunk.js.LICENSE.txt": "/brightdrop/static/js/2.105552b0.chunk.js.LICENSE.txt"
+    "static/css/main.14108112.chunk.css.map": "/brightdrop/static/css/main.14108112.chunk.css.map",
+    "static/js/2.f19fcb7f.chunk.js.LICENSE.txt": "/brightdrop/static/js/2.f19fcb7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0234be4a.js",
-    "static/js/2.105552b0.chunk.js",
-    "static/css/main.c0bddef9.chunk.css",
-    "static/js/main.e84b9a0e.chunk.js"
+    "static/js/2.f19fcb7f.chunk.js",
+    "static/css/main.14108112.chunk.css",
+    "static/js/main.e8e0af84.chunk.js"
   ]
 }
